@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000/api/captcha';
+const API_BASE_URL = 'https://captcha-solver-api-bkyg.onrender.com/api/captcha';
 
 // Fetch a new CAPTCHA
 export const fetchCaptcha = async (userId) => {
